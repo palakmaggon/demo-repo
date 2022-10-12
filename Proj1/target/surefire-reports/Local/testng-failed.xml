@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="3" parallel="tests" name="Failed suite [Local]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="3" parallel="tests" name="LocalTest-0(failed)" verbose="0">
+    <parameter name="platform" value="0"/>
+    <classes>
+      <class name="com.browserstack.LocalTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="test"/>
+        </methods>
+      </class> <!-- com.browserstack.LocalTest -->
+    </classes>
+  </test> <!-- LocalTest-0(failed) -->
+  <test thread-count="3" parallel="tests" name="LocalTest-2(failed)" verbose="0">
+    <parameter name="platform" value="2"/>
+    <classes>
+      <class name="com.browserstack.LocalTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="test"/>
+        </methods>
+      </class> <!-- com.browserstack.LocalTest -->
+    </classes>
+  </test> <!-- LocalTest-2(failed) -->
+  <test thread-count="3" parallel="tests" name="LocalTest-1(failed)" verbose="0">
+    <parameter name="platform" value="1"/>
+    <classes>
+      <class name="com.browserstack.LocalTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="test"/>
+        </methods>
+      </class> <!-- com.browserstack.LocalTest -->
+    </classes>
+  </test> <!-- LocalTest-1(failed) -->
+</suite> <!-- Failed suite [Local] -->

@@ -1,0 +1,14 @@
+18:01:11.014 [main] INFO  c.b.config.BrowserStackConfig - Detected Framework testng
+18:01:11.025 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting BrowserStack Local......
+18:03:28.302 [main] INFO  c.b.config.BrowserStackConfig - Detected Framework testng
+18:03:28.310 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting BrowserStack Local......
+18:03:28.718 [main] ERROR com.browserstack.LocalFactory - Initialization of BrowserStack Local failed com.browserstack.local.LocalException: java.io.IOException: Cannot run program "C:\Users\GPCTAdmin/.browserstack/BrowserStackLocal.exe": CreateProcess error=193, %1 is not a valid Win32 application.
+18:07:31.429 [main] INFO  c.b.config.BrowserStackConfig - Detected Framework testng
+18:07:31.438 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting BrowserStack Local......
+18:07:31.446 [main] ERROR com.browserstack.LocalFactory - Initialization of BrowserStack Local failed com.browserstack.local.LocalException: java.io.IOException: Cannot run program "C:\Users\GPCTAdmin/.browserstack/BrowserStackLocal.exe": CreateProcess error=193, %1 is not a valid Win32 application.
+18:08:49.966 [main] INFO  c.b.config.BrowserStackConfig - Detected Framework testng
+18:14:47.704 [main] INFO  c.b.config.BrowserStackConfig - Detected Framework testng
+18:16:20.755 [main] INFO  c.b.config.BrowserStackConfig - Detected Framework testng
+18:17:46.031 [main] INFO  c.b.config.BrowserStackConfig - Detected Framework testng
+18:19:15.590 [main] INFO  c.b.config.BrowserStackConfig - Detected Framework testng
+18:23:09.268 [main] INFO  c.b.config.BrowserStackConfig - Detected Framework testng
